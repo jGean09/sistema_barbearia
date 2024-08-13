@@ -1,0 +1,27 @@
+/* Cabeçalho */
+header {
+    background-color: #21292e;
+    color: #fff;
+    padding: 1rem 0;
+}
+nav ul{
+    /* Tirar os pontos que ficam na lista*/
+    list-style: none; 
+    text-align: center;
+}
+
+nav ul li{
+    display: inline; /* Exibe os itens da lista na horizontal */
+    margin: 0 15px; /* Adiciona margem lateral aos itens da lista */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* FIM Cabeçalho */
+
+
+
