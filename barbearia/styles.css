@@ -1,3 +1,9 @@
+/* Resetando margens e padding para todos os elementos */
+* {
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    box-sizing: border-box; /* Inclui padding e borda na largura total do elemento */
+}
 /* Estilizando o body */
 body {
     font-family: Arial, sans-serif; /* Define a fonte do texto */
@@ -64,5 +70,22 @@ nav ul li a {
     font-size: 1.2rem; /* Define o tamanho da fonte do botão */
     border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
 }
+#principal .btn :hover{
+    background-color: #333; /* Altera a cor de fundo do botão ao passar o mouse */
+    color: #e8491d; /* Altera a cor do texto do botão ao passar o mouse */ 
+}
 /*  FIM Principal */
+
+/*  o rodapé */
+footer{
+    background-color: #21292e; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 1rem 0; /* Adiciona padding superior e inferior ao rodapé */
+    position: fixed; /* Torna o rodapé fixo na parte inferior da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura da página */
+}
+
+/* FIM o rodapé */
 
